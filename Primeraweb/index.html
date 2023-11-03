@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <meta name="description" content="Página web de ssolarte">    
+    <link rel="stylesheet" href="css/styles.css" >
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="encabezado">
+        <h1 id="titulo1">
+          <a href="index.html" class="fuente-acento">PAGINA WEB SSOLARTE</a>
+        </h1>
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a class="navli" href="index.html">Inicio</a></li>
+            <li><a class="navli" href="nav.html">Acerca de mí</a></li>
+            <li><a class="navli" href="#trabajos">Trabajos</a></li>
+            <li><a class="navli" href="#trabajos">Servicios</a></li>
+            <li><a class="navli" href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+ <main id="seccionprincipal">
+  <section class="seccion1">      
+      <div class="seccion"> 
+        <article>
+            <h2>CONTENIDO PRINCIPAL 1ERA</h2>
+            <p>Este es el contenido principal de mi web.
+                Este parrafo es para redacción
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Totam, nostrum magnam? Quas architecto, eum provident repellat quo odio incidunt doloribus ipsum, pariatur ea autem quia velit praesentium!<br> Ad, perferendis incidunt? 
+            </p>
+            <form action="$_POST" class="formulario">
+                <!----CAMPO PARA NOMBRES ---->
+                <label for="nombre">Nombres</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <!----CAMPO PARA APELLIDOS ---->
+                <label for="nombre">Apellidos</label><br>
+                <input type="text" id="apellido" name="apellido"><br>
+                <!----CAMPO PARA CORREO ---->
+                <label for="nombre">Correo Electronico</label><br>
+                <input type="email" id="email" name="email"><br>
+                <!----CAMPO PARA MENSAJE ---->
+                <label for="nombre">Mensaje</label><br>
+                <input type="text" id="mensaje" name="mensaje" ><br>
+                <!----CAMPO PARA SELECCION DE PAIS ---->
+                <label for="nombre">País</label>
+                <select name="pais" id="pais">
+                    <option value="colombia">Colombia</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="bolivia">Bolivia</option>
+                </select><br>
+                <button type="submit">Enviar</button>
+            </form><br><br>
+              <div class="img-aseo1">
+                  <img src="img/aseo.jpg" alt="pexels-brakou-abdelghani-1723637" width="300" height="400">
+                  <h3>PRODUCTOS DE LIMPIEZA</h3><br><br>
+              </div>
+              <div class="img-aseo2">
+                  <img src="img/aseo.jpg" alt="pexels-brakou-abdelghani-1723637" width="300" height="400">
+                  <h3>PRODUCTOS DE BELLEZA</h3><br><br>
+              </div>
+              <div class="img-aseo3">
+                  <img src="img/aseo.jpg" alt="pexels-brakou-abdelghani-1723637" width="300" height="400">
+                  <h3>PRODUCTOS DE LIMPIEZA</h3><br><br>
+              </div>
+          </article>   
+      </div>   
+  </section><br>
+  <section class="seccion2">
+      <div class="seccion-2">
+          <article>
+          <h2>CONTENIDO PRINCIPAL 2DA SECCION</h2>
+       <p class="informacion">
+        
+    
+        </p>
+   
+          </article>
+      </div>
+  </section> 
+<div class="aside">
+  <aside class="aside-1">
+      <h3>Testimonios</h3>
+      <p>ASIDE <br><br>
+          Se usa principalmente para mostrar información que no es parte principal del documento, sino información adicional, temporal o relacionada en cierta manera con el contenido de la página. <br><br>
+          
+          ME GUSTA MUCHO ESTA PÁGINA.
+
+      </p>
+  </aside>
+</div>
+</main>
+
+<footer>
+   <div class="footer">
+    <h4>Redes sociales</h4>
+     <img src="img/logo.png" width="120px" height="60px"/>
+     <a href=""><img src="img/logo.png" width="120px" height="60px"/></a>
+     <a href=""><img src="img/logo.png" width="120px" height="60px"/></a>
+  </div>
+</footer>
+<style>
+    /* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+/* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+pequeñas */
+body {
+font-size: 16px;
+
+}
+.navegacion {
+width: 90%;
+margin: 0 auto;
+background-color: red;
+}
+}
+/* Estilos para pantallas más grandes (a partir de 769px) */
+@media (min-width: 769px) {
+/* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+grandes */
+body {
+font-size: 18px;
+background-color: greenyellow;
+}
+.navegacion {
+width: 80%;
+margin: 0 auto;
+background-color: greenyellow;
+}
+}
+</style>
+</body>
+</html>

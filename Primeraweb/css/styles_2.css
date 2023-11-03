@@ -1,0 +1,77 @@
+body {
+    font-size: 150%; /* 1rem = 10px */
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(169, 218, 55);
+}
+/* Esto es un comentario en CSS */
+#contenedor{   
+    font-size: 30px;
+    color: rgb(193, 166, 166);   
+    text-align: center;
+    width: 1400px;
+    height: 130px;
+    padding: 20px 20px 50px 80px;
+    margin: -350px 200px 20px 2px; /* Margen del encabezado */
+    position: static;   
+}
+.navegacion{
+    color: rgb(228, 108, 34);
+    position: static;
+    top: 4px;
+}
+a.logo{    
+    position: relative;
+    bottom: 10px;
+    left: -700px;
+
+}
+.img-aseo1{
+    position:relative;
+    top: 4px;
+    left:50px;
+}
+.img-aseo2{
+    position:relative;
+    top: -495px;
+    left:450px;
+
+}
+.img-aseo3{
+    position:relative;
+    top: -550px;
+    left:50px;
+}
+.seccion{
+width: 1040px;
+height: 1299px;
+border: 2px solid;
+position: relative;
+top: 100px;
+
+}
+.seccion-2{
+    height: 499px;
+
+    border: 2px solid;
+    top: 90px;
+    position: relative;
+}
+.aside-1{
+    width: 450px;
+    height: 400px;
+    border: 2px solid;
+    position: relative;
+    top: -1731px;
+    left: 1050px; 
+    text-align: justify;
+}
+a.navegacion:hover{
+    display:flexbox;
+    gap: 2rem;
+    background-color: whitesmoke;
+    
+}
+.footer{
+    border: 2px solid;
+    text-align: center;
+}
