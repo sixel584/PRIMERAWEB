@@ -156,7 +156,8 @@
   width: 1049px;
   height: 1500px;
   border: 2px solid;
-  
+  border-radius: 15px;
+    text-align: center;
   position: relative;
       top: 150px;
   }
