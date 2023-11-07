@@ -173,6 +173,7 @@ position: relative;
 }
 .footer{
     border: 2px solid;
+    width: 100%;
 }
 /* ------------- CSS General ------------- */
 * {
@@ -215,9 +216,9 @@ body {
 .label{
   text-align: center;
 }
-footer {
+.footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: ;
   align-items: center;
   top: 125px;
   position: relative;
