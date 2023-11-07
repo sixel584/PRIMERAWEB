@@ -261,8 +261,9 @@ footer {
   flex-wrap: wrap;
 }
 
-.form-row input[type="text"] {
-  background-color: #bdbdbd;
+.form-row input[type="text"]
+.form-row input[type="email"]{
+  background-color: #b5aeae;
   border: 0;
   border-radius: 6px;
   width: 100%;
@@ -297,3 +298,27 @@ footer {
     padding-right: 20px;
   }
 }
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+
+
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+
+
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+
+
+  width: 100%;
+}
+/* ------------- Para Pantallas de más de 700px ------------- */
+
+
+.form-row textarea {
+    width: 250px;
+  }
