@@ -95,7 +95,7 @@ nav ul.menu li a {
 @media (max-width: 768px) {
   /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
   header {
-    background-color: orange;
+    background-color: orange  ;
   }
 
   .checkbtn {
@@ -173,4 +173,118 @@ position: relative;
 }
 .footer{
     border: 2px solid;
+}
+/* ------------- CSS General ------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #5d6063;
+  background-color: #eaedf0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+/* ------------- Encabezado Contacto ------------- */
+
+.forminfo {
+  position: relative;
+  display: flex;  
+}
+#nombre{
+  background-color: #f6f7f8;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 80%;
+  padding: 10px;
+  margin: -5px 65px 40px 0;
+
+}
+.label{
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 125px;
+  position: relative;
+}
+
+.form-header {
+  text-align: center;
+  background-color: #f6f7f8;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  
+
+  width: 80%;
+  margin: 10px auto;
+  padding: 50px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* ------------- Formulario ------------- */
+
+.formulario {
+  background-color: #f6f7f8;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+
+  width: 80%;
+  padding: 50px;
+  margin: 30px 0 40px 0;
+}
+/* ------------- Campos del Formulario ------------- */
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type="text"] {
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+  width: 100%;
+  padding: 7px;
+  font-size: 24px;
+}
+
+.form-row label {
+  margin-bottom: 3px;
+  text-align: initial;
+}
+
+/* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+  .form-header {
+    padding: 50px;
+  }
+
+  .form-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .form-row input[type="text"] {
+    width: 250px;
+    height: initial;
+  }
+  .form-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
 }
